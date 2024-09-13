@@ -26,5 +26,29 @@ let someNumber = 33;
 
 let stringNumber = String(someNumber);
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// ----------------------Operations----------------------
+
+// console.log(2**4); // Double Stars show exponential operations.
+
+let str1 = "Hello"
+let str2 = " Shaheem"
+let str3 = str1 + str2
+// console.log(str3);
+// Concatenation.
+
+// console.log(typeof("1" + 2)); // These both are strings
+// console.log(typeof(1 + "2"));
+
+console.log(typeof("1" + 2 + 2)); //Both are strings.
+console.log(typeof(1 + 2 + "2"));
+
+// 01:23:58 - TimeStamp at which left.
+
+
+
+
+
