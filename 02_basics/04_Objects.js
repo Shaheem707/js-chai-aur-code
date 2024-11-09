@@ -1,4 +1,5 @@
 const user = new Object();
+const user1 = Object.create();
 
 const regularUser = {
     email: "some@gmail.com",
