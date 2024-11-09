@@ -20,3 +20,15 @@ console.log(Object.entries(regularUser))
 // Result of entries method => [[ 'email', 'some@gmail.com' ],[ 'fullName', 'Some Sam' ],[ 'age', 40 ], [ 'empId', 2 ]]
 
 console.log(regularUser.hasOwnProperty("fullName")) // Returns a boolean
+
+// ------------------ Destructuring and JSON API ------------------------
+
+const course = {
+    courseName: "JavaScript",
+    price: '999',
+    courseInstructor: "Hitesh"
+}
+
+// Destructuring:
+const {courseName} = course; // OR
+const {courseName : Name} = course;
