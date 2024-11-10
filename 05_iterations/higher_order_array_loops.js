@@ -90,4 +90,4 @@ const booksAfter2000 = books.filter((book)=> (book.publish > 2000))
 const newNums2 = myNums.map((num) => num * 10).map((num) => num + 1).filter((num)=> num >= 40);
 // console.log(newNums2)
 
-myNums.reduce((accumulator, ))
+myNums.reduce((accumulator, curr) => accumulator + curr, 0)
